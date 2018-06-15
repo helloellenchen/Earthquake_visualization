@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Geo JSON</title>
+
+  <!-- Leaflet CSS & JS -->
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.0.2/dist/leaflet.css" />
+  <script src="https://unpkg.com/leaflet@1.0.2/dist/leaflet.js"></script>
+
+  <!--D3 cdn-->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/4.5.0/d3.min.js"></script>
+
+  <!-- Our CSS -->
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+
+   <!-- header -->
+    <div class="jumbotron">
+        <div class="container">
+            <h1>Earthquake Visualization</h1>
+            <p>The map below shows the earthquake data over the last 7 days and focus on the USA. Color and size of the circles correspond to the magnitude of the earthquake.   
+            </p>
+        </div>
+    </div>
+
+    </div class="container-fluid">
+  <!-- The div where we will inject our map -->
+  <div id="map"></div>
+  
+  <!-- Our JS -->
+  <script type="text/javascript" src="logic.js"></script>
+</body>
+</html>
